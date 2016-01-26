@@ -6,19 +6,19 @@ for i in 0...100
 {
     if i % 2 == 0
     {
-        print("\(i) par")
+        print("\(i) par!!!")
     }
     else if i % 2 != 0
     {
-        print("\(i) inpar")
+        print("\(i) inpar!!!")
     }
     
-    if i < 40 && i > 30
+    if i <= 40 && i >= 30
     {
-        print("\(i) viva swift!")
+        print("\(i) Viva Swift!!!")
     }
     if i % 5 == 0
     {
-        print("\(i) bingo")
+        print("\(i) Bingo!!!")
     }
 }
